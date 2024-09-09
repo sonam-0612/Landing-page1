@@ -1,0 +1,17 @@
+.toast {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.toast.visible {
+  display: block;
+  opacity: 1;
+}
